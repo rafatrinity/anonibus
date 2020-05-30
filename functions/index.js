@@ -2,14 +2,6 @@ const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 const path = require('path');
 
-
-// let serviceAccount = require("../keys/anonibus-23bbf-firebase-adminsdk-8t52x-c8fcb49974.json");
-
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://anonibus-23bbf.firebaseio.com"
-// });
-
 admin.initializeApp();
 
 let db = admin.firestore();
